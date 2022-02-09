@@ -1,8 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const paquete_js_1 = require("./paquete.js");
-window.onload = () => {
+import { Paquete } from './paquete.js';
+window.onload = function () {
     alert("hola Mundo");
 };
-const paquete = new paquete_js_1.Paquete();
+var paquete = new Paquete();
 paquete.diHola();

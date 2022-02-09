@@ -1,9 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Paquete = void 0;
-class Paquete {
-    diHola() {
-        console.log("Hola");
+var Paquete = /** @class */ (function () {
+    function Paquete() {
     }
-}
-exports.Paquete = Paquete;
+    Paquete.prototype.diHola = function () {
+        console.log("Hola");
+    };
+    return Paquete;
+}());
+export { Paquete };
